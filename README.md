@@ -1,5 +1,5 @@
 ## The exact solution to rank-1 L1-norm Tucker2 decomposition ##
----
+
 We implent algorithms for the exact solution to rank-1 L1-norm Tucker2 decompostion of 3-ways tensors as they have been presented in [[1]](https://ieeexplore.ieee.org/document/8248754).
 
 * IEEEXplore article: https://ieeexplore.ieee.org/document/8248754
@@ -20,4 +20,7 @@ If you use our algorihtms for the exact solution to rank-1 L1-norm Tucker2 decom
     pages={511-515},
     doi={10.1109/LSP.2018.2790901}}
 ```
-[[1]](https://ieeexplore.ieee.org/document/8248754)  P. P. Markopoulos, D. G. Chachlakis and E. E. Papalexakis, "The Exact Solution to Rank-1 L1-Norm TUCKER2 Decomposition," in IEEE Signal Processing Letters, vol. 25, no. 4, pp. 511-515, April 2018.  
+| [[1]](https://ieeexplore.ieee.org/document/8248754)  | P. P. Markopoulos, D. G. Chachlakis and E. E. Papalexakis, "The Exact Solution to Rank-1 L1-Norm TUCKER2 Decomposition," in IEEE Signal Processing Letters, vol. 25, no. 4, pp. 511-515, April 2018.   |
+|-----|--------|
+
+ 
