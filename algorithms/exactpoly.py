@@ -16,7 +16,7 @@ def exactpoly(tensor, halfSphere=True):
     vopt: right-hand side optimal basis vector
     bopt: an optimal antipodal binary vector
     metopt: the maximum attainable metric
-    numOfCandidates: number of binary vectors examined
+    numOfCandidates: number of antipodal binary vectors examined
     """
     assert np.ndim(tensor)==3,'Expected a 3-way array as input.'
     X=xmatrix(tensor)
@@ -38,4 +38,4 @@ def exactpoly(tensor, halfSphere=True):
     U,S,Vt=np.linalg.svd(X@np.kron(bopt,np.eye(M)))
     uopt=U[:,0]
     vopt=Vt[0,:]
-    return uopt,vopt,bopt,metopt, numOfCandidates
+    return uopt,vopt,bopt,metopt,numOfCandidates

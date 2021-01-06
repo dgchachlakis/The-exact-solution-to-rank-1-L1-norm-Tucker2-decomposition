@@ -17,7 +17,7 @@ def exact(tensor):
     vopt: right-hand side optimal basis vector
     bopt: an optimal antipodal binary vector
     metopt: the maximum attainable metric
-    numOfCandidates: number of binary vectors examined
+    numOfCandidates: number of antipodal binary vectors examined
     """
     assert np.ndim(tensor)==3,'Expected a 3-way array as input.'
     X=xmatrix(tensor)
@@ -25,8 +25,9 @@ def exact(tensor):
     M=tensor.shape[1]
     N=tensor.shape[2]
     B=decimal2binary(list(range(2**N)),N)
+    numOfCandidates=B.shape[1]
     metopt=0
-    for n in range(B.shape[1]):
+    for n in range(numOfCandidates):
         b=B[:,n,None]
         Z=X@np.kron(b,np.eye(M))
         sigmamax=np.linalg.svd(Z)[1].flatten()[0]
@@ -36,5 +37,4 @@ def exact(tensor):
     U,S,Vt=np.linalg.svd(X@np.kron(bopt,np.eye(M)))
     uopt=U[:,0]
     vopt=Vt[0,:]
-    numOfCandidates=2**N
     return uopt,vopt,bopt,metopt,numOfCandidates

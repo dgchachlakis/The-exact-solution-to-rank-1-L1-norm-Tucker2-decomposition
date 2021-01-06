@@ -8,7 +8,7 @@ def computeCandidates(matrix,halfSphere=True):
     assert rho<=N,'Input matrix should have full-row rank.'
     numOfambiguities=rho-1
     Bpool=utils.decimal2binary(list(range(2**numOfambiguities)),numOfambiguities)
-    combinations=list(itertools.combinations((range(N)), numOfambiguities))
+    combinations=list(itertools.combinations((range(N)),numOfambiguities))
     candidates=set()
     for combination in combinations:
         matrixI=matrix[:,combination]
