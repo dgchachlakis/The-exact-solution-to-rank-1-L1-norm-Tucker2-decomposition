@@ -1,5 +1,4 @@
 import numpy as np
-import tensorly as tl
 from utils import *
 def exactpoly(tensor):
     assert np.ndim(tensor)==3,'Expected a 3-way array as input.'

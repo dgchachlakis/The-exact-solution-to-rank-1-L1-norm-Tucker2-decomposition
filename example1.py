@@ -1,5 +1,4 @@
 import numpy as np
-import tensorly as tl
 from algorithms import *
 import time
 
