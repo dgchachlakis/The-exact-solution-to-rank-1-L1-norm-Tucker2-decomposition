@@ -3,7 +3,6 @@ Exact solution to rank-1 L1-norm Tucker2 decomposition by exhaustive search.
 """
 __author__='D. G. Chachlakis'
 import numpy as np
-import tensorly as tl
 from utils import *
 def exact(tensor):
     """ 
