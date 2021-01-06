@@ -1,11 +1,9 @@
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 ## The exact solution to rank-1 L1-norm Tucker2 decomposition ##
 
 In this repo we implent algorithms for the exact solution to rank-1 L1-norm Tucker2 decompostion of 3-ways tensors as they have been presented in [[1]](https://ieeexplore.ieee.org/document/8248754). 
 
 Formally, given a collection of matrix measurements $\mathbf X_1, \mathbf X_2,\ldots, \mathbf X_N \in \mathbb R^{D \times M}$, the scripts provided solve
-$$\underset{\begin{smallmatrix}\mathbf u \in \mathbb R^D~;~\|u\|_2=1\\\mathbf v \in \mathbb R^D~;~\|v\|_2=1\end{smallmatrix}}{\text{max.}}\sum\limits_{n=1}^N |\mathbf u^\top\mathbf X_n\mathbf v|,$$
+$\underset{\begin{smallmatrix}\mathbf u \in \mathbb R^D~;~\|u\|_2=1\\\mathbf v \in \mathbb R^D~;~\|v\|_2=1\end{smallmatrix}}{\text{max.}}\sum\limits_{n=1}^N |\mathbf u^\top\mathbf X_n\mathbf v|$
 exactly. 
 
 * IEEEXplore article: https://ieeexplore.ieee.org/document/8248754
