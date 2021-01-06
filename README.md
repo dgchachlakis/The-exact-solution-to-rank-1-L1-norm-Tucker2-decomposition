@@ -4,7 +4,7 @@ In this repo we implent algorithms for the exact solution to rank-1 L1-norm Tuck
 
 Formally, given a collection of matrix measurements $\mathbf X_1, \mathbf X_2,\ldots, \mathbf X_N \in \mathbb R^{D \times M}$, the scripts provided solve exactly the followig problem:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Cunderset%7B%5Cbegin%7Bsmallmatrix%7D%5Cmathbf%20u%20%5Cin%20%5Cmathbb%20R%5ED%7E%3B%7E%5C%7Cu%5C%7C_2%3D1%5C%5C%5Cmathbf%20v%20%5Cin%20%5Cmathbb%20R%5ED%7E%3B%7E%5C%7Cv%5C%7C_2%3D1%5Cend%7Bsmallmatrix%7D%7D%7B%5Ctext%7Bmax.%7D%7D%5Csum%5Climits_%7Bn%3D1%7D%5EN%20%7C%5Cmathbf%20u%5E%5Ctop%5Cmathbf%20X_n%5Cmathbf%20v%7C)
+![equation](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cdpi%7B150%7D%20%5Cfn_cm%20%5CLARGE%20%5Cunderset%7B%5Cbegin%7Bsmallmatrix%7D%5Cmathbf%20u%5Cin%20%5Cmathbb%20R%5ED%7E%3B%7E%5C%7C%5Cmathbf%20u%5C%7C_2%3D1%5C%5C%5Cmathbf%20v%5Cin%20%5Cmathbb%20R%5EM%7E%3B%7E%5C%7C%5Cmathbf%20v%5C%7C_2%3D1%5Cend%7Bsmallmatrix%7D%7D%7B%5Ctext%7Bmax.%7D%7D%5Csum%5Climits_%7Bn%3D1%7D%5EN%7C%5Cmathbf%20u%5E%5Ctop%5Cmathbf%20X_n%5Cmathbf%20v%7C)
 
 
 
