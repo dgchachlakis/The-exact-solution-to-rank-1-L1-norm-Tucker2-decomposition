@@ -1,3 +1,5 @@
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 ## The exact solution to rank-1 L1-norm Tucker2 decomposition ##
 
 In this repo we implent algorithms for the exact solution to rank-1 L1-norm Tucker2 decompostion of 3-ways tensors as they have been presented in [[1]](https://ieeexplore.ieee.org/document/8248754). 
