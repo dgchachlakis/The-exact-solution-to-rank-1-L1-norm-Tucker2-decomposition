@@ -23,7 +23,7 @@ Inquiries regarding the scripts provided below are cordially welcome. In case yo
 **Citing**
 
 If you use our algorihtms for the exact solution to rank-1 L1-norm Tucker2 decomposition, please cite [[1]](https://ieeexplore.ieee.org/document/8248754).
-```
+```bibtex
 @article{rank1L1Tucker2,
     author={P. P. {Markopoulos} and D. G. {Chachlakis} and E. E. {Papalexakis}},
     journal={IEEE Signal Processing Letters}, 
